@@ -1,0 +1,98 @@
+body {
+    background-image: url(images/background1.jpg);
+    background-size: cover;
+}
+fieldset {
+    width: 40%;
+    height: 400px;
+    margin-left: 30%;
+    border: none;
+}
+h1 {
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+    margin-top: 10%;
+}
+P {
+    font-size: 16px;
+    font-family: sans-serif;
+    text-align: center;
+    color: gainsboro;
+}
+label {
+    font-size: 18px;
+    font-family: sans-serif;
+    color: white;
+}
+input {
+    display: block;
+    width: 100%;
+    padding: 1%;
+    margin-bottom: 3%;
+}
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 1%;
+}
+button {
+    color: white;
+    font-size: 14px;
+    font-weight: bolder;
+    font-family: sans-serif;
+    background-color: rgb(19, 142, 19);
+    margin-top: 5px;
+    width: 25%;
+    padding: 1%;
+    cursor: pointer;
+}
+@media all and (max-width: 480px) {
+    fieldset {
+        width: 80%;
+        height: 400px;
+        margin-left: 10%;
+        border: none;
+    }
+    h1 {
+        font-family: sans-serif;
+        text-align: center;
+        color: white;
+        margin-top: 10%;
+        font-size: 25px;
+    }
+    P {
+        font-size: 16px;
+        font-family: sans-serif;
+        text-align: center;
+        color: gainsboro;
+    }
+    label {
+        font-size: 18px;
+        font-family: sans-serif;
+        color: white;
+    }
+    input {
+        display: block;
+        width: 100%;
+        padding: 1%;
+        margin-bottom: 3%;
+    }
+    textarea {
+        width: 100%;
+        height: 150px;
+        padding: 1%;
+    }
+    button {
+        color: white;
+        font-size: 14px;
+        font-weight: bolder;
+        font-family: sans-serif;
+        background-color: rgb(19, 142, 19);
+        margin-top: 5px;
+        width: 35%;
+        padding: 2%;
+        border: none;
+        cursor: pointer;
+    }
+}

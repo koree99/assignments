@@ -1,0 +1,97 @@
+body {
+    background-image: url(images/background1.jpg);
+    background-size: cover;
+}
+.container {
+    background-color: white;
+    width: 30%;
+    height: 650px;
+    margin-top: 3%;
+    margin-left: 35%;
+    border-radius: 10px;
+}
+fieldset {
+    border: none;
+}
+.form-area {
+    margin-top: 2%;
+}
+h1 {
+    font-family: sans-serif;
+    color: red;
+    text-align: center;
+}
+input {
+    background-color: gainsboro;
+    width: 90%;
+    padding: 2%;
+    margin-top: 2%;
+    margin-left: 5%;
+    border: none;
+}
+label {
+    font-size: 16px;
+    margin-left: 5%;
+}
+.input-field {
+    margin-top: 2%;
+}
+.input-1 {
+    background-color: gainsboro;
+    display: inline-flex;
+    width: 90%;
+    margin-left: 5%;
+}
+label {
+    color: gray;
+    font-size: 15px;
+    margin-top: 2%;
+    margin-left: 8px;
+    margin-right: 70%;
+    width: 20%;
+}
+select {
+    color: gray;
+    background-color: gainsboro;
+    width: 90%;
+    padding: 2%;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    margin-left: 5%;
+    border: none;
+}
+button {
+    font-size: 16px;
+    font-weight: bolder;
+    color: white;
+    background-color: rgb(19, 142, 19);
+    border: none;
+    width: 90%;
+    padding: 2%;
+    margin-top: 3%;
+    margin-left: 5%;
+    cursor: pointer;
+}
+.checkbox {
+    margin-left: -150px;
+}
+span {
+    font-size: 14px;
+    margin-left: -180px;
+    margin-top: -10%;
+}
+button a {
+    color: white;
+    text-decoration: none;
+}
+p {
+    color: white;
+    text-align: center;
+    margin-bottom: -1%;
+}
+a small {
+    color: red;
+    text-align: center;
+    margin-left: 55.2%;
+    cursor: pointer;
+}

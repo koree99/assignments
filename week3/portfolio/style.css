@@ -1,0 +1,341 @@
+body {
+    background-image: url(images/background1.jpg);
+    background-size: cover;
+}
+h1 {
+    color: red;
+    font-size: 35px;
+    font-family: sans-serif;
+    margin-left: 10%;
+    margin-top: 4%;
+}
+.nav-items {
+  display: flex;
+  justify-content: space-between;
+  margin-top: -3%;
+  margin-left: 50%;
+  margin-right: 100px;
+  cursor: pointer;
+}
+.nav-item a {
+    font-family: sans-serif;
+    color: gainsboro;
+    text-decoration: none;
+}
+.nav-items li {
+    list-style: none;
+}
+.button {
+    color: white;
+    font-size: 20px;
+    background-color: red;
+    width: 150px;
+    margin-top: -5%;
+    padding: 5%;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+a .button:hover {
+    background-color: darkblue;
+}
+.menu {
+    display: none;
+    cursor: pointer;
+}
+.menu-list{
+    background-color: white;
+    width: 20px;
+    height: 3px;
+    margin-bottom: 2px;
+}
+p {
+    color: gainsboro;
+    font-size: 25px;
+    font-family: sans-serif;
+    margin-top: 10%;
+    margin-left: 20%;
+}
+h2 {
+    color: white;
+    font-size: 65px;
+    font-family: sans-serif;
+    margin-left: 20%;
+}
+h3 {
+    color: gray;
+    font-size: 35px;
+    font-family: sans-serif;
+    margin-left: 20%;
+}
+img {
+    border: 2px solid white;
+    margin-top: -3.5%;
+    margin-left: 65%;
+    position: absolute;
+    width: 20%;
+    height: 450px;
+}
+.section1 {
+    max-width: 100%;
+    margin-top: 3%;
+    height: 360px;
+}
+h4 {
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    margin-top: 8%;
+}
+#box {
+    background-color: black;
+    border-radius: 20px;
+    width: 40%;
+    height: 207px;
+    position: absolute;
+    margin-left: 9%;
+}
+#box1 {
+    background-color: black;
+    border-radius: 20px;
+    width: 40%;
+    height: 207px;
+    position: absolute;
+    margin-left: 51%;
+}
+.head {
+    font-size: 30px;
+    color: white;
+    margin-top: 3%;
+    margin-left: 40%;
+}
+li {
+    font-size: 20px;
+    font-family: sans-serif;
+    color: white;
+    margin-left: 30px;
+    margin-bottom: 5px;
+}
+.li {
+    font-size: 25px;
+    margin-left: 10%;
+}
+.section2 {
+    background-color: black;
+    border-radius: 20px;
+    margin-top: -3.7%;
+    margin-left: 10%;
+    width: 82%;
+    height: 300px;
+}
+h5 {
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 35px;
+}
+.section3 {
+    background-color: black;
+    border-radius: 20px;
+    margin-left: 10%;
+    width: 82%;
+    height: 300px;
+    margin-top: 3%;
+}
+.socials {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 5%;
+}
+h6 {
+    color: gray;
+    font-family: sans-serif;
+    font-size: 17px;
+}
+.fa-twitter{
+    color: white;
+    margin: 1%;
+}
+.fa-linkedin {
+    color: white;
+    margin: 1%;
+}
+.fa-telegram {
+    color: white;
+    margin: 1%;
+}
+@media all and (max-width: 480px) {
+    .container {
+        width: 100%;
+    }
+    h1 {
+        margin-left: 3%;
+    }
+    .nav-bar{
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .nav-items {
+        flex-direction: column;
+        display: none;
+        text-align: center;
+        width: 100%;
+        margin-left: 20px;
+        cursor: pointer;
+      }
+    .nav-item{
+        margin: auto;
+    }
+    .nav-item a {
+        margin-left: -80px;
+        color: white;
+        font-size: 16px;
+    }
+    .nav-items li {
+        margin-top: 1%;
+    }
+    .button {
+        color: white;
+        font-size: 20px;
+        background-color: red;
+        width: 250px;
+        margin-top: 1%;
+        padding: 2%;
+        margin-left: -90px;
+        border-radius: 20px;
+        border: none;
+        cursor: pointer;
+    }
+    .menu {
+        display: block;
+        position: absolute;
+        top: 30px;
+        right: 50px;
+    }
+    .active {
+        display: block;
+    }
+    p {
+        color: gainsboro;
+        font-size: 10px;
+        font-family: sans-serif;
+        margin-top: 20%;
+        margin-left: 2%;
+    }
+    h2 {
+        color: white;
+        font-size: 25px;
+        font-family: sans-serif;
+        margin-left: 2%;
+    }
+    h3 {
+        color: gray;
+        font-size: 15px;
+        font-family: sans-serif;
+        margin-left: 2%;
+    }
+    img {
+        border: 2px solid white;
+        margin-top: -4%;
+        margin-left: 60%;
+        position: absolute;
+        width: 28%;
+        height: 170px;
+    }
+    .section1 {
+        max-width: 100%;
+        margin-top: 3%;
+        height: 360px;
+    }
+    h4 {
+        font-family: sans-serif;
+        color: white;
+        font-size: 25px;
+        margin-top: 10%;
+        margin-right: 1%;
+    }
+    #box {
+        background-color: black;
+        border-radius: 20px;
+        width: 40%;
+        height: 150px;
+        position: absolute;
+        margin-left: 5%;
+    }
+    #box1 {
+        background-color: black;
+        border-radius: 20px;
+        width: 40%;
+        height: 150px;
+        position: absolute;
+        margin-left: 51%;
+    }
+    .head {
+        font-size: 20px;
+        color: white;
+        margin-top: 3%;
+        margin-left: 40%;
+    }
+    li {
+        font-size: 12px;
+        font-family: sans-serif;
+        color: white;
+        margin-left: 1%;
+    }
+    .li {
+        font-size: 12px;
+        margin-left: 1%;
+    }
+    .section2 {
+        background-color: black;
+        border-radius: 20px;
+        margin-top: -30%;
+        margin-left: 5%;
+        width: 90%;
+        height: 150px;
+    }
+    h5 {
+        font-family: sans-serif;
+        text-align: center;
+        color: white;
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+    .section3 {
+        background-color: black;
+        border-radius: 20px;
+        margin-top: 10%;
+        margin-left: 5%;
+        width: 90%;
+        height: 150px;
+    }
+    .socials {
+        text-align: center;
+        font-size: 40px;
+        margin-top: 5%;
+        margin-left: 12%;
+    }
+    h6 {
+        color: gray;
+        font-family: sans-serif;
+        font-size: 12px;
+        text-align: start;
+        margin-left: 8%;
+    }
+    .fa-twitter{
+        font-size: 30px;
+        color: white;
+        margin-right: 5%;
+    }
+    .fa-linkedin {
+        font-size: 30px;
+        color: white;
+        margin-right: 5%;
+    }
+    .fa-telegram {
+        font-size: 30px;
+        color: white;
+        margin-right: 18%;
+}
+}

@@ -1,0 +1,17 @@
+body {
+    background-image: url(images/background1.jpg);
+    background-size: cover;
+}
+.container {
+    background-color: rgb(19, 142, 19);
+    margin-top: 15%;
+    margin-left: 40%;
+    width: 13%;
+    height: 60px;
+}
+h1 {
+    font-size: 40px;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+}

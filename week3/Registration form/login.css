@@ -1,0 +1,43 @@
+body {
+    background-image: url(images/background1.jpg);
+    background-size: cover;
+}
+.container {
+    background-color: white;
+    margin-top: 10%;
+    margin-left: 35%;
+    width: 25%;
+    height: 270px;
+}
+fieldset {
+    border: none;
+}
+h1 {
+    color: red;
+    font-family: sans-serif;
+    text-align: center;
+}
+span {
+    font-size: 18px;
+    margin-left: 10%;
+}
+input {
+    background-color: rgb(227, 225, 225);
+    border: none;
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 3%;
+    padding: 2%;
+}
+button {
+    color: white;
+    font-size: 18px;
+    font-weight: bolder;
+    background-color: rgb(19, 142, 19);
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 2%;
+    padding: 2%;
+    border: none;
+    cursor: pointer;   
+}
